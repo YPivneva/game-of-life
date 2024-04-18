@@ -62,21 +62,6 @@ module.exports = {
       template: path.resolve(__dirname, "./src/index.html"),
       filename: "index.html",
     }),
-    new HtmlWebpackPlugin({
-      // Also generate a test.html
-      filename: "paper/avtorization.html",
-      template: "src/paper/avtorization.html",
-    }),
-    new HtmlWebpackPlugin({
-      // Also generate a test.html
-      filename: "paper/layout-and-stub.html",
-      template: "src/paper/layout-and-stub.html",
-    }),
-    new HtmlWebpackPlugin({
-      // Also generate a test.html
-      filename: "chat/chat-content.html",
-      template: "src/chat/chat-content.html",
-    }),
     new CssMinimizerPlugin(),
     new TerserPlugin(),
   ],
