@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Game of life</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <section class="box">
+      <canvas id="mainBoxId" width="300" height="300"></canvas>
+      <p>Количество циклов: <span id="count">0</span></p>
+      <div class="box__buttons">
+        <button id="start">Начать</button>
+        <button id="reset">Сбросить</button>
+      </div>
+    </section>
+
+    <!-- <div class="mainInterface">
+      <button onclick="startAnim()" class="interfaceBtn">Start</button>
+      <button onclick="resetToDefault()" class="interfaceBtn">Reset</button>
+      <input type="range" min="1" max="255" step="1" value="128" class="interfaceRange" id="genSpeedInput" oninput="setSpeedInput()">
+      <p class="interfaceTxt" id="genBySec">Поколений в секунду: 128</p>
+      <p class="interfaceTxt" id="genereationNumber">Поколение: 0</p>
+    <div id="mainBoxId" class="mainBox"></div>
+    <div class="cellBox deathCell" onclick="aliveButtons(this)"></div>!-->
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

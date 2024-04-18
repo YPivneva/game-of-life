@@ -1,30 +1,24 @@
 module.exports = {
   env: {
     browser: true,
-    commonjs: true,
     es2021: true,
-    "jest/globals": true,
+    node: true,
   },
-  extends: ["airbnb-base", "prettier"],
+  extends: ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
   overrides: [
     {
-      env: {
-        node: true,
-      },
+      env: {},
       files: [".eslintrc.{js,cjs}"],
       parserOptions: {
         sourceType: "script",
       },
     },
   ],
+  parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaVersion: "latest",
+    sourceType: "module",
   },
-  plugins: ["jest"],
-  rules: {
-    "max-len": ["error", { ignoreComments: true, code: 150 }],
-    "no-plusplus": "off",
-    "import/prefer-default-export": "off",
-  },
-  ignorePatterns: ["**/dist/*.js"],
+  plugins: ["@typescript-eslint"],
+  rules: {},
 };
