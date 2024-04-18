@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YPivneva/otus-js-three-column-site"
+    "url": "git+https://github.com/YPivneva/game-of-life"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/YPivneva/otus-js-three-column-site/issues"
+    "url": "https://github.com/YPivneva/game-of-life/issues"
   },
-  "homepage": "https://github.com/YPivneva/otus-js-three-column-site#readme",
+  "homepage": "https://github.com/YPivneva/game-of-life#readme",
   "dependencies": {
     "html-loader": "^5.0.0",
     "lodash": "^4.17.21"
