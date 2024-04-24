@@ -20,13 +20,14 @@ function goLife() {
     mas[i] = [];
     for (let j = 0; j < n; j++) {
       mas[i][j] = 0;
+      console.log(mas[i][j]);
     }
   }
 }
 
 goLife();
 
-function drawField() {
+function drawField(ctx) {
   ctx.clearRect(0, 0, 300, 300);
   for (let i = 0; i < 30; i++) {
     for (let j = 0; j < 30; j++) {
